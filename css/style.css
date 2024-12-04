@@ -2,7 +2,7 @@ body{
     background-color: #f5f5f5;
     margin: 0;
 }
-
+/*
 .poppins-thin {
     font-family: "Poppins", serif;
     font-weight: 100;
@@ -110,7 +110,7 @@ body{
     font-weight: 900;
     font-style: italic;
   }
-  
+  */
 
 header{
     display: block;
@@ -120,12 +120,14 @@ header{
     font-weight: 400;
     font-style: normal;
 }
-nav:hover{
-    color: #003C3D;
+nav a:hover{
+    color: #003C3D
+    !important;
 }
 
-nav {
-    
+nav a{
+    color: #003C3D
+    !important;
 }
 
 footer{
