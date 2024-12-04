@@ -4,15 +4,17 @@ body{
 }
 
 H1{
-
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 H4 {
 font-family: Poppins;
-font-size: 28px;
+font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: 132%; 
 }
 
 header{
