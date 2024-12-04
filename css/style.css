@@ -21,7 +21,7 @@ body{
     font-style: normal;
   }
   
-  .poppins-regular {
+ h4 {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
@@ -137,20 +137,28 @@ nav a:hover{
     color: #003C3D !important;
 }
 
-
-
 nav a{
     color: #003C3D !important;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .primaryBtn{
     background-color: #003C3D !important;
     border-radius: 72px !important;
     color: white !important;
-    width: 120px;
+    border: 2px solid !important;
+    border-color: #003C3D !important;
+    max-width: 180px;
 }
 
 .primaryBtn:hover{
+    border: 2px solid !important;
+    border-color: #7ED5D8 !important;
     background-color: #7ED5D8 !important;
 }
 
@@ -160,13 +168,15 @@ nav a{
     border: 2px solid !important;
     border-color: #003C3D !important;
     color: #003C3D !important;
-    width: 180px;
-    box-sizing: border-box;
+    max-width: 180px;
+    box-sizing:border-box;
 }
 
 .secondaryBtn:hover{
     background-color: #7ED5D8 !important;
     border: 0px !important;
+    border: 2px solid !important;
+    border-color: #7ED5D8 !important;
 }
 
 footer{
