@@ -4,10 +4,7 @@ body{
 }
 
 H1{
-    font-family: Poppins;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
+
 }
 
 H4 {
@@ -15,13 +12,11 @@ font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
+margin: 0;
 }
 
 header{
     display: block;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .container{
@@ -36,6 +31,11 @@ header{
 }
 .currentPage:hover{
     color:#C73E11 !important;
+}
+nav-link{
+    text-align: bottom !important;
+    height: 40px !important;
+    justify-content: center !important;
 }
 
 nav a:hover{
