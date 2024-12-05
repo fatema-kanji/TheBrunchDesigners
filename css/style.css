@@ -40,6 +40,7 @@ H3 {
 }
 
 H4 {
+    margin-bottom: 0;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -111,6 +112,8 @@ nav a{
     gap: 12px;
 }
 
+
+
 .primaryBtn{
     background-color: #003C3D !important;
     border-radius: 72px !important;
@@ -145,5 +148,5 @@ nav a{
 
 footer{
     background-color: #003C3D;
-    height: 20em;
+    padding: 1em;
 }
