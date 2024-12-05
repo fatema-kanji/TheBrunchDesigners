@@ -12,6 +12,11 @@ body {
     line-height: 147%;
 }
 
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .display1 {
     font-family: "Fredoka";
     font-size: 72px;
@@ -178,9 +183,12 @@ footer{
     display:flex;
 }
 
+
+
 .center {
     display: flex;
     justify-content: center !important;
     align-items: center !important;
     
 }
+
