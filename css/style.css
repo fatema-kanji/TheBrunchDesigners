@@ -98,6 +98,10 @@ header {
     color:#C73E11 !important;
 }
 
+.nav-link{
+    align-content: center;
+}
+
 nav a:hover{
     color: #003C3D !important;
 }
@@ -146,7 +150,9 @@ nav a{
     border-color: #7ED5D8 !important;
 }
 
+
 footer{
     background-color: #003C3D;
     padding: 1em;
+    display:flex;
 }
