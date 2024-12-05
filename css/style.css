@@ -107,6 +107,7 @@ header {
     margin-right: auto;
     margin-top: 24px;
     margin-bottom: 24px;
+    align-content: center;
 }
 
 .currentPage{
