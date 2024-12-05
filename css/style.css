@@ -150,6 +150,10 @@ nav a{
     border-color: #7ED5D8 !important;
 }
 
+.mb-3{
+ max-width: 40%;
+ padding: 3em;
+}
 
 footer{
     background-color: #003C3D;
