@@ -1,11 +1,16 @@
 body {
-    background-color: #ffffff;
+    background-color: #fff;
     margin: 0;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 147%;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .display1 {
@@ -59,10 +64,6 @@ H4 {
     font-weight: 400;
 }
 
-.footerBtn{
-    margin-top: 3em;
-}
-
 H5 {
     margin-bottom: 0;
     font-family: Poppins;
@@ -72,7 +73,6 @@ H5 {
 }
 
 H6 {
-    margin-bottom: 0;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -107,14 +107,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
-    margin-bottom: 24px;
-    align-content: center;
+    align-content: center !important;
 }
 
 .currentPage{
     color:#C73E11 !important;
 }
-
 .currentPage:hover{
     color:#C73E11 !important;
 }
@@ -137,6 +135,8 @@ nav a{
     gap: 12px;
 }
 
+
+
 .primaryBtn{
     background-color: #003C3D !important;
     border-radius: 72px !important;
@@ -150,10 +150,6 @@ nav a{
     border: 2px solid !important;
     border-color: #7ED5D8 !important;
     background-color: #7ED5D8 !important;
-}
-
-.banner img{
-    width: -webkit-fill-available;
 }
 
 .secondaryBtn{
@@ -238,5 +234,14 @@ button strong{
 .tstCard{
     width: 18rem;
     text-align: center;
+}
+
+/*------------------Home------------------*/
+
+.center {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    
 }
 
