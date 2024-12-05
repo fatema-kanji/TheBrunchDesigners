@@ -8,13 +8,25 @@ body {
     line-height: 147%;
 }
 
-font {
+.display1 {
+    font-family: "Fredoka";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--Brown-400, #401717);
+    text-align: center;
+    }
+
+
+.display3 {
     font-family: "Fredoka One";
-font-size: 72px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%;
-}
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    }
+
 
 
 H1 {
