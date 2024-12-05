@@ -101,7 +101,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
-    align-content: center;
+    align-content: center !important;
 }
 
 .currentPage{
@@ -174,4 +174,9 @@ footer{
     display:flex;
 }
 
-<!-- INDEX CSS 
+.center {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
