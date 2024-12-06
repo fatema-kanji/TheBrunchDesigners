@@ -25,11 +25,12 @@ section {
 
 
 .display3 {
-    font-family: "Fredoka One";
+    font-family: "Fredoka";
     font-size: 50px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 120%;
+    color: #401717;
     }
 
 
@@ -135,8 +136,6 @@ nav a{
     gap: 12px;
 }
 
-
-
 .primaryBtn{
     background-color: #003C3D !important;
     border-radius: 72px !important;
@@ -182,18 +181,29 @@ footer{
 
 /*------------------FAQ------------------*/
 .pageTitle{
-    position: relative;
+    position: sticky;
     max-width: 1300px;
     margin-left: 10%;
     margin-right: 10%;
-    top: 28em;
+    top: 36em;
     z-index: 1;
 }
 
 .faq{
-    max-width: 1180px !important;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    max-width: 1300px !important;
+}
+
+banner{
+    display: flex !important;
+}
+
+.banner img{
+    width: -webkit-fill-available;
+    z-index: 0;
+}
+
+.banner .display1{
+    text-align: left !important;
 }
 
 .accordion-item{
@@ -232,7 +242,7 @@ button strong{
 }
 
 .tstCard{
-    width: 18rem;
+    width: auto;
     text-align: center;
 }
 
