@@ -282,7 +282,7 @@ button strong{
 
 .choosePlan {
     background-color: #006E70;
-padding: 5%;
+padding: 2%;
 
 }
 
@@ -293,7 +293,7 @@ padding: 5%;
     text-align: left;
     height: 100% !important;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -308,8 +308,8 @@ align-content: center;
     font-weight: 600;
     line-height: 120%;
     color: #fff;
-    text-align: left;
-    margin-bottom: 3%;
+    text-align: center;
+    margin-bottom: 5%;
 
 
 }
@@ -317,7 +317,6 @@ align-content: center;
 
 .col-md-3{
     align-content: center;
-    margin-bottom: 2%;
 }
 
 
