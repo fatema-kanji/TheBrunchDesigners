@@ -6,6 +6,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 147%;
+    width: auto;
 }
 
 section {
@@ -149,9 +150,9 @@ nav a{
 }
 
 .primaryBtn{
+    color: #fff !important;
     background-color: #003C3D !important;
     border-radius: 72px !important;
-    color: white !important;
     border: 2px solid !important;
     border-color: #003C3D !important;
     max-width: 200px;
@@ -179,6 +180,10 @@ nav a{
     border: 0px !important;
     border: 2px solid !important;
     border-color: #7ED5D8 !important;
+}
+
+header h5:hover{
+    font-weight: 600;    
 }
 
 /*------------------Footer------------------*/
@@ -297,7 +302,6 @@ padding: 2%;
     height: 100% !important;
     margin-top: 5%;
     margin-bottom: 5%;
-
 }
 
 .row{
@@ -313,8 +317,6 @@ align-content: center;
     color: #fff;
     text-align: center;
     margin-bottom: 5%;
-
-
 }
 
 
