@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    margin: 0;
+    margin-top: 2rem !important;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -23,14 +23,23 @@ section {
     text-align: center;
     }
 
+    .display2{
+        font-family: "Fredoka";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        color: #fff;
+    }
 
 .display3 {
     font-family: "Fredoka";
     font-size: 50px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 120%;
-    color: #401717;
+    color: var(--Brown-400, #401717);
+    text-align: center;
     }
 
 
@@ -58,7 +67,8 @@ H3 {
 }
 
 H4 {
-    margin-bottom: 0;
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -261,7 +271,7 @@ button strong{
 
 .choosePlan {
     background-color: #006E70;
-    padding-top:20px;
+padding: 5%;
 
 }
 
@@ -287,4 +297,6 @@ button strong{
 .ref{
     width: 100%;
     justify-content: center;
+    padding: 5% !important;
+
 }
