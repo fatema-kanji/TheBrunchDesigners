@@ -36,7 +36,6 @@ section {
     }
 
 
-
 H1 {
     font-family: Poppins;
     font-size: 44px;
@@ -192,7 +191,7 @@ footer{
     display:flex;
 }
 
-.card-title{
+footer .card-title{
     margin-bottom: 56px;
 }
 
@@ -204,11 +203,12 @@ footer{
 
 /*------------------FAQ------------------*/
 .pageTitle{
-    position: sticky;
+    position: absolute;
     max-width: 1300px;
     margin-left: 10%;
     margin-right: 10%;
-    top: 36em;
+    top: 28em;
+    left: 16em;
     z-index: 1;
 }
 
@@ -217,6 +217,7 @@ footer{
 }
 
 banner{
+    position: relative;
     display: flex !important;
 }
 
@@ -331,6 +332,14 @@ align-content: center;
     align-content: center !important;
 }
 
+.container{
+    margin-top: 24px !important;
+    max-width: 1300px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    align-content: center !important;
+}
+
 .textbox{
     display: inline-flex;
     flex-direction: column;
@@ -340,8 +349,12 @@ align-content: center;
     padding: 2%;
 }
 
+.pld{
+    max-width: 100%;
+}
+
 .ref{
-    width: 100%;
+    max-width: 100%;
     justify-content: center;
 }
 
