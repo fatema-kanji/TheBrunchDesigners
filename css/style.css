@@ -245,3 +245,14 @@ button strong{
     
 }
 
+.choosePlan {
+    background-color: #006E70;
+    padding-top:20px;
+
+}
+
+.col {
+    background-color: #fff;
+    border-radius: 16px;
+    margin:2%;
+}
