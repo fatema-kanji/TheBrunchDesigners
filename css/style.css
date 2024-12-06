@@ -296,7 +296,6 @@ padding: 2%;
     padding:7% !important;
     text-align: left;
     height: 100% !important;
-    margin-top: 5%;
 
 
 }
@@ -313,7 +312,7 @@ align-content: center;
     line-height: 120%;
     color: #fff;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 
 
 }
@@ -321,6 +320,7 @@ align-content: center;
 
 .col-md-3{
     align-content: center;
+    padding-bottom: 3%;
 }
 
 
