@@ -167,7 +167,7 @@ nav a{
 }
 
 .secondaryBtn{
-    background-color: #f5f5f5 !important;
+    background-color: #fff !important;
     border-radius: 72px !important;
     border: 2px solid !important;
     border-color: #003C3D !important;
@@ -239,6 +239,10 @@ button strong{
 }
 
 /*------------------Testimonials------------------*/
+
+.te{
+    text-align: left !important;
+}
 
 .tst{
     display:flex;
