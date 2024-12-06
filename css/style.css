@@ -350,6 +350,7 @@ align-content: center;
 }
 
 .pld{
+    max-width: 100%;
 }
 
 .ref{
