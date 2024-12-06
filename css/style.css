@@ -11,6 +11,7 @@ body {
 section {
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: auto;
 }
 
 .display1 {
@@ -31,6 +32,7 @@ section {
         line-height: 120%;
         color: #fff;
         margin-bottom: 25%;
+        text-align: left;
     }
 
 .display3 {
@@ -281,11 +283,12 @@ padding: 5%;
 
 }
 
-.col {
+.card {
     background-color: #fff;
     border-radius: 16px;
     margin:2%;
     padding:3% !important;
+    text-align: left;
 }
 
 /*------------------HIW------------------*/
