@@ -30,6 +30,7 @@ section {
         font-weight: 600;
         line-height: 120%;
         color: #fff;
+        margin-bottom: 25%;
     }
 
 .display3 {
@@ -284,6 +285,7 @@ padding: 5%;
     background-color: #fff;
     border-radius: 16px;
     margin:2%;
+    padding:3% !important;
 }
 
 /*------------------HIW------------------*/
