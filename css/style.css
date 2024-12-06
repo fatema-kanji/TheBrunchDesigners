@@ -31,7 +31,10 @@ section {
         font-weight: 600;
         line-height: 120%;
         color: #fff;
-        text-align: center;
+        text-align: left;
+        margin-bottom: 5%;
+
+
     }
 
 .display3 {
@@ -294,8 +297,8 @@ padding: 5%;
 .chooseCard {
     background-color: #fff;
     border-radius: 24px !important;
-    margin:2%;
-    padding:10% !important;
+    margin:5%;
+    padding:5% !important;
     text-align: left;
     height: 100% !important;
 
