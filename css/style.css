@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    margin: 0;
+    margin-top: 2rem !important;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -73,7 +73,8 @@ H3 {
 }
 
 H4 {
-    margin-bottom: 0;
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -275,7 +276,7 @@ button strong{
 
 .choosePlan {
     background-color: #006E70;
-    padding-top:20px;
+padding: 5%;
 
 }
 
@@ -284,6 +285,5 @@ button strong{
     border-radius: 16px;
     margin:2%;
     padding: 5% !important;
-    content: 200px;
 
 }
