@@ -118,11 +118,14 @@ header {
     font-style: normal;
 }
 
+p{
+    margin-bottom: 0;
+}
+
 .container{
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 24px;
     align-content: center !important;
 }
 
