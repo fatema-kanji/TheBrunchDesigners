@@ -24,18 +24,6 @@ section {
     text-align: center;
     }
 
-    .display2{
-        font-family: "Fredoka";
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 120%;
-        color: #fff;
-        text-align: left;
-        margin-bottom: 5%;
-
-
-    }
 
 .display3 {
     font-family: "Fredoka";
@@ -54,6 +42,7 @@ H1 {
     font-size: 44px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Brown-400, #401717);
 }
 
 H2 { 
@@ -61,6 +50,7 @@ H2 {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Brown-400, #401717);
 
 }
 
@@ -94,6 +84,7 @@ H6 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Brown-400, #401717);
 }
 
 
@@ -125,6 +116,7 @@ p{
 
 .container{
     margin-top: 24px !important;
+    margin-bottom: 24px;
     max-width: 1300px;
     margin-left: auto!important;
     margin-right: auto!important;
@@ -297,13 +289,37 @@ padding: 5%;
 .chooseCard {
     background-color: #fff;
     border-radius: 24px !important;
-    margin:5%;
-    padding:5% !important;
+    padding:7% !important;
     text-align: left;
     height: 100% !important;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+.row{
+align-content: center;
+}
+
+.display2{
+    font-family: "Fredoka";
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 3%;
 
 
 }
+
+
+.col-md-3{
+    align-content: center;
+    margin-bottom: 2%;
+}
+
 
 /*------------------HIW------------------*/
 .howCont{
