@@ -185,7 +185,8 @@ nav a{
 
 footer{
     margin-top: 80px;
-    background-color: #003C3D;
+    background-color: #F5F5F5;
+    border-top: .25rem solid#003C3D;
     padding: 1em;
     display:flex;
 }
