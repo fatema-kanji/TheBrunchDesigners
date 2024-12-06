@@ -158,12 +158,13 @@ nav a{
     color: white !important;
     border: 2px solid !important;
     border-color: #003C3D !important;
-    max-width: 180px;
+    max-width: 200px;
 }
 
 .primaryBtn:hover{
     border: 2px solid !important;
     border-color: #7ED5D8 !important;
+    color: #003C3D !important;
     background-color: #7ED5D8 !important;
 }
 
@@ -184,16 +185,24 @@ nav a{
     border-color: #7ED5D8 !important;
 }
 
-.mb-3{
- max-width: 40%;
- padding: 3em;
-}
+/*------------------Footer------------------*/
 
 footer{
+    margin-top: 80px;
     background-color: #003C3D;
     padding: 1em;
     display:flex;
 }
+
+.card-title{
+    margin-bottom: 56px;
+}
+
+.mb-3{
+    max-width: 40%;
+    padding: 3em;
+   }
+
 
 /*------------------FAQ------------------*/
 .pageTitle{
