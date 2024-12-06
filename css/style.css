@@ -24,16 +24,6 @@ section {
     text-align: center;
     }
 
-    .display2{
-        font-family: "Fredoka";
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 120%;
-        color: #fff;
-        margin-bottom: 25%;
-        text-align: left;
-    }
 
 .display3 {
     font-family: "Fredoka";
@@ -51,6 +41,7 @@ H1 {
     font-size: 44px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Brown-400, #401717);
 }
 
 H2 { 
@@ -58,6 +49,7 @@ H2 {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Brown-400, #401717);
 
 }
 
@@ -78,7 +70,8 @@ H4 {
 }
 
 H5 {
-    margin-bottom: 0;
+    margin-top: .25rem !important;
+    margin-bottom: .25rem !important;
     font-family: Poppins;
     font-size: 19px;
     font-style: normal;
@@ -91,6 +84,7 @@ H6 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Brown-400, #401717);
 }
 
 
@@ -122,6 +116,7 @@ p{
 
 .container{
     margin-top: 24px !important;
+    margin-bottom: 24px;
     max-width: 1300px;
     margin-left: auto!important;
     margin-right: auto!important;
@@ -190,7 +185,8 @@ nav a{
 
 footer{
     margin-top: 80px;
-    background-color: #003C3D;
+    background-color: #F5F5F5;
+    border-top: .25rem solid#003C3D;
     padding: 1em;
     display:flex;
 }
@@ -289,20 +285,43 @@ button strong{
 
 .choosePlan {
     background-color: #006E70;
-padding: 5%;
+padding: 2%;
 
 }
 
 .chooseCard {
     background-color: #fff;
     border-radius: 24px !important;
-    margin:2%;
-    padding:10% !important;
+    padding:7% !important;
     text-align: left;
     height: 100% !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.row{
+align-content: center;
+}
+
+.display2{
+    font-family: "Fredoka";
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;
 
 
 }
+
+
+.col-md-3{
+    align-content: center;
+}
+
 
 /*------------------HIW------------------*/
 .howCont{
