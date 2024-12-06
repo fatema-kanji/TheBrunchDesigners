@@ -11,6 +11,7 @@ body {
 section {
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: auto;
 }
 
 .display1 {
@@ -31,6 +32,7 @@ section {
         line-height: 120%;
         color: #fff;
         margin-bottom: 25%;
+        text-align: left;
     }
 
 .display3 {
@@ -122,8 +124,8 @@ p{
 .container{
     margin-top: 24px !important;
     max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto!important;
+    margin-right: auto!important;
     align-content: center !important;
 }
 
@@ -290,11 +292,15 @@ padding: 5%;
 
 }
 
-.col {
+.chooseCard {
     background-color: #fff;
-    border-radius: 16px;
+    border-radius: 24px !important;
     margin:2%;
-    padding:3% !important;
+    padding:10% !important;
+    text-align: left;
+    height: 100% !important;
+
+
 }
 
 /*------------------HIW------------------*/
