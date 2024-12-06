@@ -108,6 +108,7 @@ p{
 }
 
 .container{
+    margin-top: 24px !important;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -268,4 +269,22 @@ button strong{
     background-color: #fff;
     border-radius: 16px;
     margin:2%;
+}
+
+/*------------------HIW------------------*/
+.howCont{
+    display: flex;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center !important;
+}
+
+.textbox{
+    width: 100%;
+}
+
+.ref{
+    width: 100%;
+    justify-content: center;
 }
