@@ -272,7 +272,6 @@ text-align: center;
     margin-right: 10%;
     top: 36em;
     left: 16em;
-    z-index: 1;
 }
 
 .faq{
@@ -286,7 +285,6 @@ banner{
 
 .banner img{
     width: -webkit-fill-available;
-    z-index: 0;
 }
 
 .banner .display1{
