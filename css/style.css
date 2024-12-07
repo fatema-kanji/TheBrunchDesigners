@@ -360,9 +360,7 @@ padding: 2%;
     margin-bottom: 5%;
 }
 
-.row{
-align-content: center;
-}
+
 
 .display2{
     font-family: "Fredoka";
@@ -381,22 +379,37 @@ align-content: center;
     padding-bottom: 3%;
 }
 
-.bread {
-z-index: 0;
+
+.phone {
+z-index: -1;
 display:flex;
 position: relative;
-background-color: #7ED5D8;
-border-radius: 100%;
-max-width: 800px;
-max-height: 800px;
+align-items: center;
 justify-content: center;
+
 }
+
+.circle{
+    background-color: #7ED5D8;
+border-radius: 50%;
+max-width: auto;
+max-height: 800px;
+margin-left: 23%;
+margin-right: 23%;
+}
+
+.bread {
+    position: relative;
+
+    }
 
 .butter{
     z-index: 1;
-    position:sticky;
-    
+    top:20px;
+    position: sticky;
 }
+
+.grid-container
 
 /*------------------HIW------------------*/
 .howCont{
