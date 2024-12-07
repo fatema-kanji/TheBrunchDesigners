@@ -411,7 +411,7 @@ z-index: 0;
     flex-direction: column;
     justify-content:center;
     align-items:left;
-    width: 50%;
+    width: 100%;
     padding: 2%;
 }
 
@@ -421,7 +421,7 @@ z-index: 0;
 
 .ref{
     max-width: 100%;
-    justify-content: center;
+    text-align: center;
 }
 
 .textbox .display1{
