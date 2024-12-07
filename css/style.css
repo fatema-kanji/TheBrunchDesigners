@@ -215,19 +215,25 @@ footer .logo{
 }
 
 .footButton{
-    margin-bottom: 2% !important;
-}
+    margin-bottom: 5% !important;
+    margin-top:5%;}
 
 footer .chooseCard{
 max-width: auto;
 align-content: center;
 }
 
-footer .chooseCard .row{
-align-content: center;
+footer .chooseCard{
+align-content: center !important;
 text-align: center;
+padding: 5% !important;
+height: auto !important;
+
 }
 
+.textBox {
+    padding: 8%;
+}
 
 /*------------------FAQ------------------*/
 .pageTitle{
@@ -322,7 +328,7 @@ padding: 2%;
     border-radius: 24px !important;
     padding:7% !important;
     text-align: left;
-    height: 100% !important;
+    height: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
