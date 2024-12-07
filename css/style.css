@@ -35,6 +35,18 @@ section {
     text-align: center;
     }
 
+    .display4 {
+        font-family: "Fredoka";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        color: var(--Brown-400, #401717);
+        text-align: left;
+
+        }
+
+
 
 H1 {
     font-family: Poppins;
@@ -193,7 +205,7 @@ footer{
 }
 
 footer .logo{
-   max-width: 170px;
+   max-width: 80%;
    margin-bottom: 3%;
 }
 
@@ -202,7 +214,8 @@ footer .logo{
 }
 
 footer .chooseCard{
-max-width: 90%;
+max-width: auto;
+align-content: center;
 }
 
 
