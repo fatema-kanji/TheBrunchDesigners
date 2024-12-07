@@ -221,7 +221,6 @@ footer{
     margin-top: 80px;
     background-color: #F5F5F5;
     border-top: .25rem solid#003C3D;
-    padding: 1em;
     display:flex;
 }
 
@@ -234,10 +233,6 @@ footer .logo{
     margin-bottom: 5% !important;
     margin-top:5%;}
 
-footer .chooseCard{
-max-width: auto;
-align-content: center;
-}
 
 footer .chooseCard{
 align-content: center !important;
@@ -263,7 +258,7 @@ footer .link h5{
 
 .legalContainer{
 padding-top:0%;
-    max-width: 1300px;
+    max-width: auto;
 text-align: center;
     align-content: top !important;
     background-color: #F5F5F5;
