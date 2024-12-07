@@ -409,7 +409,16 @@ margin-right: 23%;
     position: sticky;
 }
 
-.grid-container
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.item{
+
+}
+
 
 /*------------------HIW------------------*/
 .howCont{
