@@ -254,7 +254,7 @@ button strong{
 
 /*------------------Testimonials------------------*/
 
-.te{
+.ts{
     text-align: left !important;
 }
 
@@ -347,7 +347,7 @@ align-content: center;
     flex-direction: column;
     justify-content:center;
     align-items:left;
-    width: 100%;
+    width: 50%;
     padding: 2%;
 }
 
