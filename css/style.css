@@ -383,10 +383,19 @@ align-content: center;
 
 .bread {
 z-index: 0;
+display:flex;
+position: relative;
+background-color: #7ED5D8;
+border-radius: 100%;
+max-width: 800px;
+max-height: 800px;
+justify-content: center;
 }
 
 .butter{
     z-index: 1;
+    position:sticky;
+    
 }
 
 /*------------------HIW------------------*/
