@@ -36,6 +36,18 @@ section {
     text-align: center;
     }
 
+    .display4 {
+        font-family: "Fredoka";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        color: var(--Brown-400, #401717);
+        text-align: left;
+
+        }
+
+
 
 H1 {
     font-family: Poppins;
@@ -80,12 +92,13 @@ H5 {
 }
 
 H6 {
-    margin-bottom: 0;
+    margin-bottom: 15px !important;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: var(--Brown-400, #401717);
+
+
 }
 
 
@@ -196,14 +209,21 @@ footer{
     display:flex;
 }
 
-footer .card-title{
-    margin-bottom: 56px;
+footer .logo{
+   max-width: 80%;
+   margin-bottom: 3%;
 }
 
-.mb-3{
-    max-width: 40%;
-    padding: 3em;
-   }
+.footButton{
+    margin-bottom: 2% !important;
+}
+
+footer .chooseCard{
+max-width: auto;
+align-content: center;
+}
+
+
 
 
 /*------------------FAQ------------------*/
@@ -322,6 +342,7 @@ align-content: center;
 
 .col-md-3{
     align-content: center;
+    padding-bottom: 3%;
 }
 
 
