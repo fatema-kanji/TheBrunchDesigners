@@ -223,7 +223,10 @@ max-width: auto;
 align-content: center;
 }
 
-
+footer .chooseCard .row{
+align-content: center;
+text-align: center;
+}
 
 
 /*------------------FAQ------------------*/
