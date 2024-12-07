@@ -137,13 +137,6 @@ p{
     align-content: center !important;
 }
 
-.currentPage{
-    color:#C73E11 !important;
-}
-.currentPage:hover{
-    color:#C73E11 !important;
-}
-
 .nav-link{
     align-content: center;
 }
@@ -195,9 +188,32 @@ nav a{
     border-color: #7ED5D8 !important;
 }
 
-header h5:hover{
-    font-weight: 600;    
+.link h5{
+    padding: 0.2em;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
 }
+
+.link h5:hover{
+    color: #006E70;
+    padding: 0.2em;
+    font-weight: 600;
+}
+
+.currentPage h5{
+    font-weight: 600 !important;
+    color:#C73E11 !important;
+    padding: 0.2em;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px
+}
+
+.currentPage h5:hover{
+    color:#C73E11 !important;
+}
+
 
 /*------------------Footer------------------*/
 
@@ -237,7 +253,7 @@ height: auto !important;
 
 /*------------------FAQ------------------*/
 .pageTitle{
-    position: absolute;
+    position: sticky;
     max-width: 1300px;
     margin-left: 10%;
     margin-right: 10%;
