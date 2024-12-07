@@ -202,12 +202,12 @@ nav a{
 }
 
 .currentPage h5{
+    width: 200px;
     font-weight: 600 !important;
     color:#C73E11 !important;
     padding: 0.2em;
     border-radius: 8px;
     text-align: center;
-    width: 200px
 }
 
 .currentPage h5:hover{
@@ -467,4 +467,8 @@ margin-right: 23%;
 
 .textbox p{
     padding-bottom: 16px;
+}
+
+.navbar-collapse h5{
+    align-items: left;
 }
