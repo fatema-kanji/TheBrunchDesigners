@@ -107,7 +107,7 @@ body-small {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 147%; 
+    line-height: 50%; 
 }
 
 label{
@@ -249,6 +249,14 @@ height: auto !important;
 
 .textBox {
     padding: 8%;
+}
+
+.legalContainer{
+padding-top:0%;
+    max-width: 1300px;
+text-align: center;
+    align-content: top !important;
+    background-color: #F5F5F5;
 }
 
 /*------------------FAQ------------------*/
