@@ -381,6 +381,13 @@ align-content: center;
     padding-bottom: 3%;
 }
 
+.bread {
+z-index: 0;
+}
+
+.butter{
+    z-index: 1;
+}
 
 /*------------------HIW------------------*/
 .howCont{
