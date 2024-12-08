@@ -2,9 +2,9 @@ body {
     background-color: #fff;
     margin-top: 2rem !important;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 147%;
     width: auto;
 }
@@ -456,13 +456,14 @@ display:grid;
   }
   
   .cells {
-    background: #7ED5D8;
-    border-radius: 50px; 
-    color: white;
+    background: #e5f7f7;
+    border-radius: 20px; 
+    color: #260E0E;
     text-align: center;
     padding: 20px;
     margin-top: 4em;
     margin-bottom: 4em;
+    box-shadow: 0 4px 8px rgba(0, 84, 86, 0.2);;
   }
   
   .phone {
@@ -471,13 +472,17 @@ display:grid;
     position: absolute;
     align-items: center;
     justify-content: center;
-    border-radius: 32px;
+    border-radius: 35px;
     }
     
 .butter{
     z-index: 2;
     top:56px;
     position: relative;
+    background-image: url("../images/Ellipse 166.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:65% ;
 }
 
 .edge{
@@ -486,8 +491,13 @@ display:grid;
 }
 
 .circle{
-    border-stroke: #7ED5D8 2px solid;
-    max-width: auto;
+
+    max-width: 100%;
     max-height: auto;
+    margin-left: 2px;
+    margin-right: auto;
+    z-index:-2;
+    position: absolute;
+    text-align: center;
     }
     
