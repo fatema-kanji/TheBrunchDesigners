@@ -67,3 +67,45 @@
     }
 
 }
+
+/* KRISTINA"S STUFF! */
+
+@media screen and (max-width: 992px) {
+
+    /* LANDING PAGE */
+
+    .chooseCard {
+        height: 90%;
+    }
+        
+    .display2 {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+ .choosePlan .nav-fill {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+ }
+
+}
+
+/* Footer NavBar */
+
+ @media screen and (max-width: 766px){
+ footer .link h5 {
+    text-align: center;
+
+}
+
+.footButton {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+        margin-bottom: 2% !important;
+        margin-top: 2%;
+    }
+
+
+}
