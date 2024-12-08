@@ -25,6 +25,10 @@
     align-items: center !important;
  }
 
+}
+
+
+ @media screen and (max-width: 766px){
  footer .link h5 {
 
     text-align: center;
@@ -35,5 +39,10 @@
     display: flex;
     justify-content: center !important;
     align-items: center !important;
+        margin-bottom: 2% !important;
+        margin-top: 2%;
+    }
 }
-}
+
+
+
