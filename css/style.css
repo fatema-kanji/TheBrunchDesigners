@@ -401,7 +401,7 @@ margin-right: 23%;
 .bread {
     position: relative;
 display:grid;
-grid-template-columns: 1fr 1fr 1fr;
+
     }
 
 .butter{
@@ -414,15 +414,8 @@ grid-template-columns: 1fr 1fr 1fr;
     height: 50px;
 }
 
-.gridContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
-    z-index: 2;
-    top:0;
-    position: relative;
-    justify-content: ;
-}
+
+
 
 /*------------------HIW------------------*/
 .howCont{
