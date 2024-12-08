@@ -1,0 +1,76 @@
+@media screen and (max-width: 992px) {
+
+    /* LANDING PAGE */
+
+        .chooseCard {
+        background-color: #fff;
+        border-radius: 24px !important;
+        padding: 7% !important;
+        text-align: left;
+        height: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        }
+        
+        
+    .display2 {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .choosePlan .nav-fill {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+ footer .link h5 {
+
+    text-align: center;
+
+}
+
+.footButton {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+}
+
+@media (min-width: 993px) {
+    .link h5{
+        width: 200px !important;
+    }
+
+    .currentPage h5{
+        width: 200px !important;
+    }
+
+    
+    footer .buttons{
+        display: none !important;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .pageTitle{
+        top: 12em;
+        margin-left: 2em;
+    }
+
+    .footer .buttons{
+        display: block;
+    }
+
+    .QR{
+        display: none;
+    }
+
+    h6{
+        width: 95px !important;
+        text-align:center ;
+        margin-bottom: 0px !important;
+    }
+}
