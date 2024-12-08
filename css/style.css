@@ -382,43 +382,11 @@ padding: 2%;
 
 
 
-.circle{
-background-color: #7ED5D8;
-border-radius: 50%;
-max-width: auto;
-max-height: 800px;
-margin-left: 23%;
-margin-right: 23%;
-}
-
 .bread {
     position: relative;
 display:grid;
 
     }
-
-<<<<<<< Updated upstream
-.butter{
-    z-index: 2;
-    top:0;
-    position: relative;
-}
-
-.butter .row{
-    height: 50px;
-=======
-.edge{
-    border-radius: 50px !important;
-}
-
-
-.gridContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
->>>>>>> Stashed changes
-}
-
 
 
 
@@ -469,15 +437,11 @@ display:grid;
 
 .textbox p{
     padding-bottom: 16px;
-<<<<<<< Updated upstream
-=======
 }
 
 .navbar-collapse h5{
     align-items: left;
 }
-
-
 
 
 /*-------------home experiment---------*/
@@ -497,7 +461,8 @@ display:grid;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 5em;
+    margin-top: 4em;
+    margin-bottom: 4em;
   }
   
   .phone {
@@ -506,13 +471,23 @@ display:grid;
     position: absolute;
     align-items: center;
     justify-content: center;
-    border-radius: 64px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);;
+    border-radius: 32px;
     }
     
 .butter{
-    z-index: 1;
-    top:160px;
+    z-index: 2;
+    top:56px;
     position: relative;
->>>>>>> Stashed changes
 }
+
+.edge{
+    max-height: 50%;
+    padding-bottom: 5em;
+}
+
+.circle{
+    border-stroke: #7ED5D8 2px solid;
+    max-width: auto;
+    max-height: auto;
+    }
+    
