@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @media screen and (max-width: 992px) {
 
     /* LANDING PAGE */
@@ -43,6 +44,33 @@
         margin-top: 2%;
     }
 }
+<<<<<<< HEAD
 
 
 
+=======
+}
+=======
+@media (min-width: 993px) {
+    .link h5{
+        width: 200px !important;
+    }
+
+    .currentPage h5{
+        width: 200px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .pageTitle{
+        top: 12em;
+        margin-left: 2em;
+    }
+
+}
+
+>>>>>>> Stashed changes
+>>>>>>> ee1a942ad8ce4ef1f3c48b9bca520226d64322cf

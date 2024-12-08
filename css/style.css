@@ -192,7 +192,6 @@ nav a {
     padding: 0.2em;
     border-radius: 8px;
     text-align: center;
-    width: 200px;
 }
 
 .link h5:hover {
@@ -207,7 +206,6 @@ nav a {
     padding: 0.2em;
     border-radius: 8px;
     text-align: center;
-    width: 200px
 }
 
 .currentPage h5:hover {
@@ -271,8 +269,8 @@ footer .link h5 {
     max-width: 1300px;
     margin-left: 10%;
     margin-right: 10%;
-    top: 36em;
-    left: 16em;
+    top: 30em;
+    left: 14em;
 }
 
 .faq {
@@ -360,8 +358,6 @@ button strong {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
-
 
 .display2 {
     font-family: "Fredoka";
