@@ -23,7 +23,7 @@ section {
     line-height: 120%;
     color: var(--Brown-400, #401717);
     text-align: center;
-    }
+}
 
 
 .display3 {
@@ -34,18 +34,18 @@ section {
     line-height: 120%;
     color: var(--Brown-400, #401717);
     text-align: center;
-    }
+}
 
-    .display4 {
-        font-family: "Fredoka";
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 120%;
-        color: var(--Brown-400, #401717);
-        text-align: left;
+.display4 {
+    font-family: "Fredoka";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--Brown-400, #401717);
+    text-align: left;
 
-        }
+}
 
 
 
@@ -57,7 +57,7 @@ H1 {
     color: var(--Brown-400, #401717);
 }
 
-H2 { 
+H2 {
     font-family: Poppins;
     font-size: 36px;
     font-style: normal;
@@ -107,10 +107,10 @@ body-small {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50%; 
+    line-height: 50%;
 }
 
-label{
+label {
     font-family: Poppins;
     font-size: 11px;
     font-style: normal;
@@ -124,38 +124,38 @@ header {
     font-style: normal;
 }
 
-p{
+p {
     margin-bottom: 0;
 }
 
-.container{
+.container {
     margin-top: 24px !important;
     margin-bottom: 24px;
     max-width: 1300px;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     align-content: center !important;
 }
 
-.nav-link{
+.nav-link {
     align-content: center;
 }
 
-nav a:hover{
+nav a:hover {
     color: #003C3D !important;
 }
 
-nav a{
+nav a {
     color: #003C3D !important;
 }
 
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.primaryBtn{
+.primaryBtn {
     color: #fff !important;
     background-color: #003C3D !important;
     border-radius: 72px !important;
@@ -164,88 +164,89 @@ nav a{
     max-width: 200px;
 }
 
-.primaryBtn:hover{
+.primaryBtn:hover {
     border: 2px solid !important;
     border-color: #7ED5D8 !important;
     color: #003C3D !important;
     background-color: #7ED5D8 !important;
 }
 
-.secondaryBtn{
+.secondaryBtn {
     background-color: #fff !important;
     border-radius: 72px !important;
     border: 2px solid !important;
     border-color: #003C3D !important;
     color: #003C3D !important;
     max-width: 180px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-.secondaryBtn:hover{
+.secondaryBtn:hover {
     background-color: #7ED5D8 !important;
     border: 0px !important;
     border: 2px solid !important;
     border-color: #7ED5D8 !important;
 }
 
-.link h5{
+.link h5 {
     padding: 0.2em;
     border-radius: 8px;
     text-align: center;
     width: 200px;
 }
 
-.link h5:hover{
+.link h5:hover {
     color: #006E70;
     padding: 0.2em;
     font-weight: 600;
 }
 
-.currentPage h5{
+.currentPage h5 {
     font-weight: 600 !important;
-    color:#C73E11 !important;
+    color: #C73E11 !important;
     padding: 0.2em;
     border-radius: 8px;
     text-align: center;
     width: 200px
 }
 
-.currentPage h5:hover{
-    color:#C73E11 !important;
+.currentPage h5:hover {
+    color: #C73E11 !important;
 }
 
 
 /*------------------Footer------------------*/
 
-footer{
+footer {
     margin-top: 80px;
     background-color: #F5F5F5;
     border-top: .25rem solid#003C3D;
-    display:flex;
+    display: flex;
 }
 
-footer .logo{
-   max-width: 80%;
-   margin-bottom: 3%;
+footer .logo {
+    max-width: 80%;
+    margin-bottom: 3%;
 }
 
-.footButton{
+.footButton {
     margin-bottom: 5% !important;
-    margin-top:5%;}
-
-
-footer .chooseCard{
-align-content: center !important;
-text-align: center;
-padding: 5% !important;
-height: auto !important;
+    margin-top: 5%;
 }
 
-footer .link h5{
+
+footer .chooseCard {
+    align-content: center !important;
+    text-align: center;
+    padding: 5% !important;
+    height: auto !important;
+}
+
+footer .link h5 {
     color: #003C3D !important;
 }
 
-footer .link h5{
+footer .link h5 {
     padding: 0.2em;
     border-radius: 8px;
     text-align: left;
@@ -256,16 +257,16 @@ footer .link h5{
     padding: 8%;
 }
 
-.legalContainer{
-padding-top:0%;
+.legalContainer {
+    padding-top: 0%;
     max-width: auto;
-text-align: center;
+    text-align: center;
     align-content: top !important;
     background-color: #F5F5F5;
 }
 
 /*------------------FAQ------------------*/
-.pageTitle{
+.pageTitle {
     position: sticky;
     max-width: 1300px;
     margin-left: 10%;
@@ -274,32 +275,32 @@ text-align: center;
     left: 16em;
 }
 
-.faq{
+.faq {
     max-width: 1300px !important;
 }
 
-banner{
+banner {
     position: relative;
     display: flex !important;
 }
 
-.banner img{
+.banner img {
     width: -webkit-fill-available;
 }
 
-.banner .display1{
+.banner .display1 {
     text-align: left !important;
 }
 
-.accordion-item{
+.accordion-item {
     background-color: #E5F7F7 !important;
 }
 
-.accordion-button{
+.accordion-button {
     background-color: #E5F7F7 !important;
 }
 
-button strong{
+button strong {
     margin-bottom: 0;
     font-family: Poppins;
     font-size: 16px;
@@ -310,19 +311,19 @@ button strong{
 
 /*------------------Testimonials------------------*/
 
-.ts{
+.ts {
     text-align: left !important;
 }
 
-.tst{
-    display:flex;
+.tst {
+    display: flex;
 }
 
-.tstSpace{
+.tstSpace {
     margin: 8px;
 }
 
-.rating{
+.rating {
     display: inline-block;
     gap: 8px;
     padding: 4px;
@@ -330,7 +331,7 @@ button strong{
     margin-right: auto;
 }
 
-.tstCard{
+.tstCard {
     width: auto;
     text-align: center;
 }
@@ -341,19 +342,19 @@ button strong{
     display: flex;
     justify-content: center !important;
     align-items: center !important;
-    
+
 }
 
 .choosePlan {
     background-color: #006E70;
-padding: 2%;
+    padding: 2%;
 
 }
 
 .chooseCard {
     background-color: #fff;
     border-radius: 24px !important;
-    padding:7% !important;
+    padding: 7% !important;
     text-align: left;
     height: 100%;
     margin-top: 5%;
@@ -362,7 +363,7 @@ padding: 2%;
 
 
 
-.display2{
+.display2 {
     font-family: "Fredoka";
     font-size: 51px;
     font-style: normal;
@@ -374,7 +375,7 @@ padding: 2%;
 }
 
 
-.col-md-3{
+.col-md-3 {
     align-content: center;
     padding-bottom: 3%;
 }
@@ -384,14 +385,14 @@ padding: 2%;
 
 .bread {
     position: relative;
-display:grid;
+    display: grid;
 
-    }
+}
 
 
 
 /*------------------HIW------------------*/
-.howCont{
+.howCont {
     display: flex;
     max-width: 1300px;
     margin-left: auto;
@@ -399,47 +400,47 @@ display:grid;
     align-content: center !important;
 }
 
-.container{
+.container {
     margin-top: 24px !important;
     max-width: 1300px;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     align-content: center !important;
 }
 
-.textbox{
+.textbox {
     display: inline-flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:left;
+    justify-content: center;
+    align-items: left;
     width: 100%;
     padding: 2%;
 }
 
-.pld{
+.pld {
     max-width: 100%;
 }
 
-.ref{
+.ref {
     max-width: 100%;
     text-align: center;
 }
 
-.textbox .display1{
+.textbox .display1 {
     text-align: left !important;
     padding-bottom: 32px;
 }
 
-.textbox .display3{
+.textbox .display3 {
     text-align: left !important;
     padding-bottom: 32px;
 }
 
-.textbox p{
+.textbox p {
     padding-bottom: 16px;
 }
 
-.navbar-collapse h5{
+.navbar-collapse h5 {
     align-items: left;
 }
 
@@ -453,41 +454,39 @@ display:grid;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-  }
-  
-  .cells {
+}
+
+.cells {
     background: #7ED5D8;
-    border-radius: 50px; 
+    border-radius: 50px;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 4em;
     margin-bottom: 4em;
-  }
-  
-  .phone {
+}
+
+.phone {
     z-index: -1;
-    display:flex;
+    display: flex;
     position: absolute;
     align-items: center;
     justify-content: center;
     border-radius: 32px;
-    }
-    
-.butter{
+}
+
+.butter {
     z-index: 2;
-    top:56px;
+    top: 56px;
     position: relative;
 }
 
-.edge{
+.edge {
     max-height: 50%;
     padding-bottom: 5em;
 }
 
-.circle{
-    border-stroke: #7ED5D8 2px solid;
+.circle {
     max-width: auto;
     max-height: auto;
-    }
-    
+}
