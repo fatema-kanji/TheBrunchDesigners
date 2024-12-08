@@ -454,51 +454,29 @@ button strong {
     flex-direction: column;
     height: 100%;
     justify-content: center;
-<<<<<<< HEAD
   }
   
   .cells {
     background: #e5f7f7;
     border-radius: 20px; 
     color: #260E0E;
-=======
-}
-
-.cells {
-    background: #7ED5D8;
-    border-radius: 50px;
-    color: white;
->>>>>>> 4fd86f2bdbe2a49768152ac7218cdc7957820964
     text-align: center;
     padding: 20px;
     margin-top: 4em;
     margin-bottom: 4em;
-<<<<<<< HEAD
     box-shadow: 0 4px 8px rgba(0, 84, 86, 0.2);;
   }
   
   .phone {
-=======
-}
-
-.phone {
->>>>>>> 4fd86f2bdbe2a49768152ac7218cdc7957820964
     z-index: -1;
     display: flex;
     position: absolute;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     border-radius: 35px;
     }
     
 .butter{
-=======
-    border-radius: 32px;
-}
-
-.butter {
->>>>>>> 4fd86f2bdbe2a49768152ac7218cdc7957820964
     z-index: 2;
     top: 56px;
     position: relative;
@@ -513,7 +491,6 @@ button strong {
     padding-bottom: 5em;
 }
 
-<<<<<<< HEAD
 .circle{
 
     max-width: 100%;
@@ -525,9 +502,3 @@ button strong {
     text-align: center;
     }
     
-=======
-.circle {
-    max-width: auto;
-    max-height: auto;
-}
->>>>>>> 4fd86f2bdbe2a49768152ac7218cdc7957820964
