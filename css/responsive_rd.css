@@ -23,11 +23,7 @@
         align-items: center !important;
     }
 
- footer .link h5 {
 
-    text-align: center;
-
-}
 
 .footButton {
     display: flex;
@@ -68,7 +64,7 @@
         display: none;
     }
 
-    h6{
+    footer h6{
         width: 95px !important;
         text-align:center ;
         margin-bottom: 0px !important;
