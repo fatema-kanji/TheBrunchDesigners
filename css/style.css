@@ -219,6 +219,11 @@ nav a {
 
 /*------------------Footer------------------*/
 
+.icon{
+    height: 2em;
+    padding: 6px;
+}
+
 .video-container {
     display: flex;
     position: absolute;
