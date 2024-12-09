@@ -10,8 +10,8 @@ body {
 }
 
 section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-width: auto;
 }
 
@@ -498,22 +498,23 @@ button strong {
     position: absolute;
     align-items: center;
     justify-content: center;
-    border-radius: 65px;
+    border-radius: 70px;
     }
     
 .butter{
     z-index: 2;
-    top: 56px;
+    top: 70px;
+    bottom: 5%;
     position: relative;
     background-image: url("../images/Ellipse 166.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size:65% ;
+    background-position: top;
+    background-size:68% ;
 }
 
 .edge {
     max-height: 50%;
-    padding-bottom: 5em;
+    padding-bottom: 7em;
 }
 
 .circle{

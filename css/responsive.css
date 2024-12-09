@@ -10,6 +10,22 @@
 
 
   }
+
+  .video-container {
+
+    width: 35%;
+
+  }
+
+.container{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+section{
+    padding: 0;
+}
+  
 }
 
 @media screen and (max-width: 992px) {
@@ -33,12 +49,13 @@
 
  .video-container {
 
-    width: 38%;
+    width: 34%;
 
   }
   
+
   .responsive-video {
-    border-radius: 28px ;
+    border-radius: 45px ;
     width: 100%;
     height: auto;
 
