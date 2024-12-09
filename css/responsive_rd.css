@@ -23,11 +23,8 @@
         align-items: center !important;
     }
 
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
 .footButton {
     display: flex;
     justify-content: center !important;
@@ -70,7 +67,6 @@ footer h6{
     }
 
 }
-<<<<<<< Updated upstream
 
 @media screen and (max-width: 992px) {
 
@@ -93,5 +89,3 @@ footer h6{
         margin-bottom: 0px !important;
     }
 }
-=======
->>>>>>> Stashed changes
