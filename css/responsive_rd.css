@@ -23,13 +23,36 @@
         align-items: center !important;
     }
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 .footButton {
     display: flex;
     justify-content: center !important;
     align-items: center !important;
 }
+
+.pageTitle{
+    top: 12em;
+    margin-left: 2em;
+}
+
+.footer .buttons{
+    display: block;
+}
+
+.QR{
+    display: none;
+}
+
+footer h6{
+    width: 95px !important;
+    text-align:center ;
+    margin-bottom: 0px !important;
+}
+
 }
 
 @media (min-width: 993px) {
@@ -46,8 +69,8 @@
         display: none !important;
     }
 
-
 }
+<<<<<<< Updated upstream
 
 @media screen and (max-width: 992px) {
 
@@ -70,3 +93,5 @@
         margin-bottom: 0px !important;
     }
 }
+=======
+>>>>>>> Stashed changes
