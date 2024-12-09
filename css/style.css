@@ -708,6 +708,11 @@ button strong {
     
     }
     
+.butter{
+    background-position: top;
+    background-size: 100%;
+}
+
     .textBox {
         padding: 3%;
     }
