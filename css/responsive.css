@@ -1,4 +1,16 @@
 /* KRISTINA"S STUFF! */
+@media screen and (min-width: 993px) {
+.video-container {
+
+    width: 40%;
+  }
+  
+  .responsive-video {
+    border-radius: 28px ;
+
+
+  }
+}
 
 @media screen and (max-width: 992px) {
 
@@ -19,10 +31,36 @@
     align-items: center !important;
  }
 
+ .video-container {
 
+    width: 38%;
+
+  }
+  
+  .responsive-video {
+    border-radius: 28px ;
+    width: 100%;
+    height: auto;
 
 }
 
+.cells {
+
+    margin-top: .5em;
+    margin-bottom: 2em;
+
+  }
+
+  footer .display4{
+    font-size: 44px !important;
+
+}
+
+body{
+    font-size: 16px;
+}
+
+}
 /* Footer NavBar */
 
  @media screen and (max-width: 766px){
@@ -69,6 +107,10 @@ footer .chooseCard {
     padding: 2%;
 }
 
+
+
+
+
  }
 
 
@@ -82,6 +124,50 @@ footer .chooseCard {
 
 .textBox {
     padding: 3%;
+}
+
+.cells {
+    margin-top: .5em;
+    margin-bottom: 1em;
+  }
+
+  body .cells {
+font-size: 12px;
+line-height: normal;
+padding: 2%;
+border-radius: 10px;
+  }
+
+  .video-container {
+
+    width: 42%;
+
+  }
+  
+  .responsive-video {
+    border-radius: 28px ;
+    width: 100%;
+    height: auto;
+
+}
+
+nav img{
+    max-width: 90%;
+}
+
+.display1{
+    font-size: 55px;
+}
+
+.center h4 {
+    font-size: 16px
+}
+.container{
+    margin-top: 0px;
+}
+
+section{
+    padding:0px;
 }
 
 }
