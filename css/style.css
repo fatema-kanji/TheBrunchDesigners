@@ -52,7 +52,6 @@ img{
 }
 
 
-
 H1 {
     font-family: Poppins;
     font-size: 44px;
@@ -527,3 +526,239 @@ button strong {
     position: absolute;
     text-align: center;
     }
+
+    /* KRISTINA"S STUFF! */
+@media screen and (min-width: 993px) {
+    .video-container {
+    
+        width: 40%;
+      }
+      
+      .responsive-video {
+        border-radius: 28px ;
+    
+    
+      }
+    
+      .video-container {
+    
+        width: 35%;
+    
+      }
+    
+    .container{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    
+    section{
+        padding: 0;
+    }
+   
+        .link h5{
+            width: 200px !important;
+        }
+    
+        .currentPage h5{
+            width: 200px !important;
+        }
+    
+        
+        footer .buttons{
+            display: none !important;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width: 992px) {
+    
+        /* LANDING PAGE */
+    
+        .chooseCard {
+            height: 90%;
+        }
+            
+        .display2 {
+            text-align: center;
+            margin-bottom: 2%;
+        }
+    
+     .choosePlan .nav-fill {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+     }
+    
+     .video-container {
+    
+        width: 34%;
+    
+      }
+      
+    
+      .responsive-video {
+        border-radius: 45px ;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .cells {
+    
+        margin-top: .5em;
+        margin-bottom: 2em;
+    
+      }
+    
+      footer .display4{
+        font-size: 44px !important;
+    
+    }
+    
+    body{
+        font-size: 16px;
+    }
+    
+    .footButton {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    .pageTitle{
+        top: 12em;
+        margin-left: 2em;
+    }
+    
+    .footer .buttons{
+        display: block;
+    }
+    
+    .QR{
+        display: none;
+    }
+    
+    footer h6{
+        width: 95px !important;
+        text-align:center ;
+        margin-bottom: 0px !important;
+    }
+    
+    }
+
+    /* Footer NavBar */
+    
+     @media screen and (max-width: 766px){
+     footer .link h5 {
+        text-align: center;
+    
+    }
+    
+    .footButton {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+            margin-bottom: 2% !important;
+            margin-top: 2%;
+        }
+    
+    .container .logo{
+        max-width: 50%;
+        align-content: center;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    
+    footer .display4{
+        font-family: "Fredoka";
+        font-size: 40px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        color: var(--Brown-400, #401717);
+        text-align: center;
+    }
+    
+    footer .chooseCard {
+        align-content: center !important;
+        text-align: center;
+        padding: 2% !important;
+        height: auto !important;
+    }
+    
+    .textBox {
+        padding: 2%;
+    }
+    
+    
+    
+    
+    
+     }
+    
+    
+    
+    @media (max-width: 576px) {
+        .col-sm-12 {
+            flex: 0 0 auto;
+            width: 100%;
+    
+    }
+    
+    .textBox {
+        padding: 3%;
+    }
+    
+    .cells {
+        margin-top: .5em;
+        margin-bottom: 1em;
+      }
+    
+      body .cells {
+    font-size: 12px;
+    line-height: normal;
+    padding: 2%;
+    border-radius: 10px;
+      }
+    
+      .video-container {
+    
+        width: 42%;
+    
+      }
+      
+      .responsive-video {
+        border-radius: 28px ;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    nav img{
+        max-width: 90%;
+    }
+    
+    .display1{
+        font-size: 55px;
+    }
+    
+    .center h4 {
+        font-size: 16px
+    }
+    .container{
+        margin-top: 0px;
+    }
+    
+    section{
+        padding:0px;
+    }
+    
+    }
+
+
+    
+
+    
