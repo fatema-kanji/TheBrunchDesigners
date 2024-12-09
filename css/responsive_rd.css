@@ -67,25 +67,3 @@ footer h6{
     }
 
 }
-
-@media screen and (max-width: 992px) {
-
-    .pageTitle{
-        top: 12em;
-        margin-left: 2em;
-    }
-
-    .footer .buttons{
-        display: block;
-    }
-
-    .QR{
-        display: none;
-    }
-
-    footer h6{
-        width: 95px !important;
-        text-align:center ;
-        margin-bottom: 0px !important;
-    }
-}
